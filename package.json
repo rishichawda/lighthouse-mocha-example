@@ -1,0 +1,33 @@
+{
+  "name": "y",
+  "version": "1.0.0",
+  "description": "Example using lighthouse and chrome-launcher for running lighthouse performance tests on your project with mocha",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha ./test/lighthouse.test.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/rishichawda/lighthouse-mocha-example.git"
+  },
+  "keywords": [
+    "lighthouse",
+    "google-chrome",
+    "mocha",
+    "performance",
+    "test"
+  ],
+  "author": "rishichawda",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/rishichawda/lighthouse-mocha-example/issues"
+  },
+  "homepage": "https://github.com/rishichawda/lighthouse-mocha-example#readme",
+  "devDependencies": {
+    "chai": "^4.2.0",
+    "chrome-launcher": "^0.10.7",
+    "cli-table": "^0.3.1",
+    "lighthouse": "^5.1.0",
+    "mocha": "^6.1.4"
+  }
+}
